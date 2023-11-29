@@ -5,6 +5,10 @@
 This template is to style when convert files from markdown to html on [Pandoc](http://pandoc.org/index.html).
 And This template is referring of [github.css](https://gist.github.com/andyferra/2554919).
 
+## Changes
+
+toc(table of contents) is now placed on the left side bar.
+
 ## Setup
 
 1. Please, place the "md2html.html" to `~/.pandoc/template/`.
@@ -13,5 +17,5 @@ And This template is referring of [github.css](https://gist.github.com/andyferra
 ### Example
 
 ```
-pandoc -f markdown -t html --template=md2html README.md > README.html
+pandoc -f markdown -t html --template=md2html README.md --toc > README.html
 ```
